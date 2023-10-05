@@ -8,7 +8,7 @@ module subtrator_2bits (A, B, TE, R);
 	input [1:0] A, B;
 	//transporte de entrada
 	input TE;
-	//Resultado com +1bit para nao dar overflow
+	//Resultado 
 	output [2:0] R;
 	
 	//variaveis intermediarias
